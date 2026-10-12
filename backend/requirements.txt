@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+sentence-transformers
+scikit-learn
+pymupdf
+torch==2.7.1+cpu
