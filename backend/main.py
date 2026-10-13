@@ -99,7 +99,7 @@ async def openalex_get(params):
     request_params = dict(params)
 
     if OPENALEX_API_KEY:
-    request_params["api_key"] = OPENALEX_API_KEY
+        request_params["api_key"] = OPENALEX_API_KEY
 
     if OPENALEX_EMAIL:
         request_params["mailto"] = OPENALEX_EMAIL
