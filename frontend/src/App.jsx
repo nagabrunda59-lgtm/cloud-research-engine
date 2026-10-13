@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://cloud-research-engine-api.eba-yvy8ppcv.ap-southeast-2.elasticbeanstalk.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://cloud-research-engine-api.onrender.com";
 const PER_PAGE = 20;
 
 const navigation = [
